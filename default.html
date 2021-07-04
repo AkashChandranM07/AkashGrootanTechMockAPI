@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dummy Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form class="box" action="home.html" method="post" name="boxy" onsubmit="return validate()">
+        <h1>LOGIN FORM</h1>
+        <input autocomplete="off" type="text" name="email" placeholder="Enter Your Email or Phone Number">
+        <div id="email_error">Please fill your Email or Phone Number</div>
+        <input type="password" name="password" placeholder="Enter Your Password">
+        <div id="pass_error">Please enter your Password</div>
+        <button type="submit">Login</button>
+        <p class="message">Not Registered? Not a Problem, <a href="registration.html">Register Here..! </a></p>
+    </form>
+    <script src="validate.js"></script>
+</body>
+
+</html>
